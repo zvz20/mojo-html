@@ -1,0 +1,151 @@
+.logo img
+{
+    width: 55px;
+    height: 55px;
+    margin-top:10px;
+
+}
+.header
+{
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+.header .navbar
+{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu
+{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    align-items: bottom;
+    
+}
+.navbar-menu li
+{
+    display: inline-block;
+}
+.navbar-menu li a
+{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight:600;
+}
+.navbar-link
+{
+    color: black;
+}
+.navbar-link-active2
+{
+    color: #00acdc;
+}
+.navbar-link-active1
+{
+    color: #00acdc;
+    position: relative;
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.product
+{
+    display: inline-block;
+    margin-left: 63px;
+    margin-right: 63px;
+    margin-top: 100px;
+    max-width: 170px;
+}
+.image
+{
+    margin-bottom: 10px;
+}
+.image img
+{
+    width: 160px;
+    height: 134px;
+    margin-left: 19px;
+    margin-right: 19px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.info h3
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+.info small
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    color: grey;
+}
+
+.rating
+{
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.rating small
+{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 20px;
+}
+.rating li
+{
+    display: inline-block;
+    color: #ffc107
+}
+.price
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+button
+{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: #00acdc;
+    border-style: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #F3F3F3;
+    margin: 16px;
+}
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
